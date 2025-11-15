@@ -13,4 +13,10 @@ Remember, it's self-paced so feel free to take a break! ☕️
 ---
 
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+## Abrir en Codespaces / Dev Container
+
+- **Abrir en Codespaces**: haz clic en el botón "Code" en GitHub y selecciona "Open with Codespaces".
+- **Usar Dev Container localmente**: en VS Code selecciona `Remote-Containers: Open Folder in Container...`.
+- Al crear el contenedor se ejecutará el script `postCreate.sh` ubicado en `.devcontainer/` (actualiza pip e instala `requirements.txt` si existe).
+
 
