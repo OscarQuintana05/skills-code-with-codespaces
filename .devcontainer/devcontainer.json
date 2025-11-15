@@ -1,6 +1,8 @@
 {
   "name": "Universal - Latest",
-  "image": "mcr.microsoft.com/devcontainers/universal:latest",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "postCreateCommand": "bash .devcontainer/postCreate.sh",
   "features": {
    "ghcr.io/devcontainers/features/python:1": {
